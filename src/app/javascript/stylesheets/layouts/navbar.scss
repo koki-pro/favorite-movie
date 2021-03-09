@@ -1,0 +1,36 @@
+.navbar {
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, .0975);
+  height: 77px;
+  &__brand {
+    height: 35px;
+    width: 176px;
+    background-size: 114px;
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 28px;
+    color: black;
+  }
+  &-nav {
+    & > li {
+      margin-left: 20px;
+      &:first-child {
+        margin-left: 0;
+      }
+      .commonNavIcon {
+        height: 24px;
+        width: 24px;
+        background-size: 22px !important;
+        background-repeat: no-repeat;
+      }
+      .profile-icon {
+        background-image: url("~parts3.png");
+      }
+    }
+  }
+}
+
+a:hover{
+  text-decoration: none;
+  color: black;
+}
